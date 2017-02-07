@@ -1,0 +1,5 @@
+<root>
+  <item name='android.text.Html android.text.Spanned fromHtml(java.lang.String)'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>
