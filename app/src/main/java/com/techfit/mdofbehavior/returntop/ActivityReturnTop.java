@@ -33,8 +33,8 @@ public class ActivityReturnTop extends AppCompatActivity {
         setContentView(R.layout.activity_return_top);
 
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);
-        setSupportActionBar(mToolbar);
         mToolbar.setTitle(TITLE);
+        setSupportActionBar(mToolbar);
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
 
         mRvList = (RecyclerView) findViewById(R.id.rv_list);
