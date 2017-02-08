@@ -1,12 +1,15 @@
 package com.techfit.mdofbehavior;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 import com.techfit.mdofbehavior.bottombehavior.ActivityBottomPopup;
+import com.techfit.mdofbehavior.imitatezhihu.ActivityImitateZhihu;
+import com.techfit.mdofbehavior.returntop.ActivityReturnTop;
+import com.techfit.mdofbehavior.slidingdel.ActivitySlidingDelete;
 
 public class ActivityHome extends AppCompatActivity {
 
@@ -57,13 +60,13 @@ public class ActivityHome extends AppCompatActivity {
                     startActivity(ActivityBottomPopup.class);
                     break;
                 case R.id.btn_return_top:
-
+                    startActivity(ActivityReturnTop.class);
                     break;
                 case R.id.btn_imitate_zhihu:
-
+                    startActivity(ActivityImitateZhihu.class);
                     break;
                 case R.id.btn_sliding_delete:
-
+                    startActivity(ActivitySlidingDelete.class);
                     break;
             }
         }
