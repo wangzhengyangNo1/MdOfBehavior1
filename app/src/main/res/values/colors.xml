@@ -6,4 +6,7 @@
 
     <!--回到顶部-->
     <color name="color_art_item_bg">#d0111111</color>
+
+    <!--仿知乎-->
+    <color name="color_aiz_et_search_bg">#a044ffbb</color>
 </resources>

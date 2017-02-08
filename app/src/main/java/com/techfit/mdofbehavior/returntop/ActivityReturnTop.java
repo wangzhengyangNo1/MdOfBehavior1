@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.techfit.mdofbehavior.ListRecyclerAdapter;
 import com.techfit.mdofbehavior.R;
 import com.techfit.mdofbehavior.utils.AnimatorUtil;
 
