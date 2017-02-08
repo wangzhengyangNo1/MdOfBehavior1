@@ -24,7 +24,7 @@ import android.widget.TextView;
 
 import com.techfit.mdofbehavior.R;
 
-public class ActivityMain extends AppCompatActivity {
+public class ActivityBottomPopup extends AppCompatActivity {
 
     private BottomSheetBehavior botmSheetBehavior;
     private Button btnDialogCtrl;
@@ -36,7 +36,7 @@ public class ActivityMain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_bottom_popup);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
