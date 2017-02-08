@@ -1,4 +1,4 @@
-package com.techfit.mdofbehavior;
+package com.techfit.mdofbehavior.bottombehavior;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -21,6 +21,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+
+import com.techfit.mdofbehavior.R;
 
 public class ActivityMain extends AppCompatActivity {
 
