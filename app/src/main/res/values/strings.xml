@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MdOfBehavior</string>
     <string name="action_settings">Settings</string>
+
+    <!--activity_return_top-->
+    <string name="scale_up_show_behavior">com.techfit.mdofbehavior.returntop.ScaleUpShowBehavior</string>
 </resources>
