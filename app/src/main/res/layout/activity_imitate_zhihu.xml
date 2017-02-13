@@ -24,8 +24,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp">
+                >
 
                 <EditText
                     android:id="@+id/bar_et_input"
@@ -35,21 +34,79 @@
                     android:background="@drawable/shape_bg_et_search"
                     android:padding="6dp"
                     android:layout_weight="1"
+                    android:layout_marginRight="20dp"
                     />
 
-                <ImageView
-                    android:id="@+id/bar_iv_search"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@mipmap/ic_right_arrow"
-                    android:padding="6dp"
-                    />
+            <ImageView
+                android:id="@+id/bar_iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_right_arrow"
+                android:padding="10dp"
+                />
             </LinearLayout>
-
-
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:padding="2dp"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="第一"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="第二"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="第三"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="第四"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            />
+
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

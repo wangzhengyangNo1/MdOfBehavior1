@@ -3,5 +3,5 @@
     <string name="action_settings">Settings</string>
 
     <!--activity_return_top-->
-    <string name="scale_up_show_behavior">com.techfit.mdofbehavior.returntop.ScaleUpShowBehavior</string>
+    <string name="scale_up_show_behavior">com.techfit.mdofbehavior.ScaleUpShowBehavior</string>
 </resources>

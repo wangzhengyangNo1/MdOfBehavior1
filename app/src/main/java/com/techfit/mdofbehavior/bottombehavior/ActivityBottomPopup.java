@@ -114,7 +114,7 @@ public class ActivityBottomPopup extends AppCompatActivity {
             public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
                 VHolder vHolder = (VHolder) holder;
                 TextView tv = (TextView) vHolder.itemView;
-                tv.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
+                tv.getLayoutParams().width = ViewGroup.LayoutParams.MATCH_PARENT;
                 tv.setGravity(Gravity.CENTER_HORIZONTAL);
                 StringBuilder builder = new StringBuilder();
                 int color = 0xFF0000;

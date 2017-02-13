@@ -1,4 +1,4 @@
-package com.techfit.mdofbehavior.returntop;
+package com.techfit.mdofbehavior;
 
 import android.content.Context;
 import android.support.design.widget.CoordinatorLayout;
